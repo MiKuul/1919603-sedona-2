@@ -2,6 +2,7 @@
 
 * Студент: [Михаил Кулешов](https://up.htmlacademy.ru/htmlcss-individual/2/user/1919603).
 * Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
+* Сайт: [Мой Сайт](https://mikuul.github.io/1919603-sedona-2/).
 
 ---
 
