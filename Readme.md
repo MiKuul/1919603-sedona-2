@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Кулешов](https://up.htmlacademy.ru/htmlcss-individual/2/user/1919603).
-* Наставник: `Неизвестно`.
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
 
 ---
 
