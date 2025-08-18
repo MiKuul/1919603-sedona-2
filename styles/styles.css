@@ -248,7 +248,7 @@ img {
 }
 
 .main__promo::after {
-  content: url("/images/index/icons/divider.svg");
+  content: url("../images/index/icons/divider.svg");
 }
 
 .advantages__item {
@@ -371,13 +371,13 @@ img {
 }
 
 .user-list__link--loop {
-  background-image: url("/images/general/header/header-user-list-icon-loop.svg");
+  background-image: url("../images/general/header/header-user-list-icon-loop.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .user-list__link--heart {
-  background-image: url("/images/general/header/header-user-list-icon-heart.svg");
+  background-image: url("../images/general/header/header-user-list-icon-heart.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -454,21 +454,21 @@ img {
 }
 
 .reasons__item--home .reasons__item-title::before {
-  content: url("/images/index/icons/index-reasons-icon-home.svg");
+  content: url("../images/index/icons/index-reasons-icon-home.svg");
   display: block;
   height: 72px;
   margin-bottom: 30px;
 }
 
 .reasons__item--burger .reasons__item-title::before {
-  content: url("/images/index/icons/index-reasons-icon-burger.svg");
+  content: url("../images/index/icons/index-reasons-icon-burger.svg");
   display: block;
   height: 72px;
   margin-bottom: 30px;
 }
 
 .reasons__item--present .reasons__item-title::before {
-  content: url("/images/index/icons/index-reasons-icon-present.svg");
+  content: url("../images/index/icons/index-reasons-icon-present.svg");
   display: block;
   height: 72px;
   margin-bottom: 30px;
@@ -563,7 +563,7 @@ img {
 }
 
 .social-list__link--icon-vk::after {
-  content: url("/images/general/footer/footer-social-list-icon-vk.svg");
+  content: url("../images/general/footer/footer-social-list-icon-vk.svg");
   width: 24px;
   height: 14px;
 }
@@ -573,7 +573,7 @@ img {
 }
 
 .social-list__link--icon-tg::after {
-  content: url("/images/general/footer/footer-social-list-icon-tg.svg");
+  content: url("../images/general/footer/footer-social-list-icon-tg.svg");
   width: 18px;
   height: 16px;
 }
@@ -583,7 +583,7 @@ img {
 }
 
 .social-list__link--icon-yt::after {
-  content: url("/images/general/footer/footer-social-list-icon-yt.svg");
+  content: url("../images/general/footer/footer-social-list-icon-yt.svg");
   width: 23px;
   height: 18px;
 }
@@ -654,7 +654,7 @@ img {
   width: 0;
   height: 0;
   margin: 5px 4px 5px 4px;
-  background-image: url("/images/catalog/icons/catalog-filters-form-checkbox-icon-mark.svg");
+  background-image: url("../images/catalog/icons/catalog-filters-form-checkbox-icon-mark.svg");
   background-repeat: no-repeat;
 }
 
@@ -759,7 +759,7 @@ img {
   border: none;
   outline: 2px solid #e5e5e5;
   border-radius: 4px;
-  background-image: url("/images/catalog/icons/select-caret.svg");
+  background-image: url("../images/catalog/icons/select-caret.svg");
   background-repeat: no-repeat;
   background-position-x: calc(100% - 20px);
   background-position-y: calc(100% - 21px);
@@ -786,19 +786,19 @@ img {
 }
 
 .view-list__link--plate-view::after {
-  content: url("/images/catalog/icons/catalog-view-icon-plate.svg");
+  content: url("../images/catalog/icons/catalog-view-icon-plate.svg");
   width: 16px;
   height: 14px;
 }
 
 .view-list__link--card-view::after {
-  content: url("/images/catalog/icons/catalog-view-icon-cards.svg");
+  content: url("../images/catalog/icons/catalog-view-icon-cards.svg");
   width: 16px;
   height: 14px;
 }
 
 .view-list__link--list-view::after {
-  content: url("/images/catalog/icons/catalog-view-icon-list.svg");
+  content: url("../images/catalog/icons/catalog-view-icon-list.svg");
   width: 16px;
   height: 14px;
 }
@@ -856,7 +856,7 @@ img {
 }
 
 .star::after {
-  content: url("/images/catalog/icons/catalog-card-icon-star.svg");
+  content: url("../images/catalog/icons/catalog-card-icon-star.svg");
   width: 18px;
   height: 17px;
   margin-right: 6px;
@@ -924,7 +924,7 @@ img {
 }
 
 .breadcrumbs-list__link--home-icon::before {
-  content: url("/images/catalog/icons/catalog-breadscrumbs-list-icon-home.svg");
+  content: url("../images/catalog/icons/catalog-breadscrumbs-list-icon-home.svg");
   display: block;
   width: 13px;
   height: 15px;
@@ -932,7 +932,7 @@ img {
 }
 
 .breadcrumbs-list__link--home-icon::after {
-  content: url("/images/catalog/icons/catalog-breadscrumbs-list-icon-arrow.svg");
+  content: url("../images/catalog/icons/catalog-breadscrumbs-list-icon-arrow.svg");
   display: block;
   width: 6px;
   height: 10px;
