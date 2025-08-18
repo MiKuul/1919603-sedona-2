@@ -10,7 +10,7 @@
     <header class="header">
       <a class="header__logo" href="index.html">
         <span class="visually-hidden">Обновить главную страницу</span>
-        <img class="logo" src="images/general/header/header-logo.svg" alt="Логотип сайта «Седона»" width="138" height="64">
+        <img class="logo" src="images/general/header/header-logo.svg" alt="Логотип сайта «Седона»" width="140" height="70">
       </a>
       <nav class="header__navigation navigation">
         <ul class="list navigation__list basic-list bold">
@@ -42,7 +42,7 @@
       </nav>
       <a class="header__link button" href="catalog.html" aria-current="page">Хочу сюда!</a>
     </header>
-    <main class="catalog">
+    <main class="main catalog">
       <section class="catalog__hotels-filter hotels-filter">
         <header class="hotels-filter__navigation">
         <h1 class="hotels-filter__title">Гостиницы Седоны</h1>
@@ -59,7 +59,7 @@
         </header>
         <form class="hotels-filter__form filters-form" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="filters-form__group">
-            <legend class="filters-form__title bold">Инфраструктура</legend>
+            <legend class="filters-form__title bold">Инфраструктура:</legend>
             <ul class="list filters-form__list filter-list">
               <li class="filter-list__item">
                 <label class="filter-list__control" for="pool">
@@ -81,7 +81,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="filters-form__group">
+          <fieldset class="filters-form__group filters-form__group--margin">
             <legend class="filters-form__title bold">Тип Жилья:</legend>
             <ul class="list filters-form__list filter-list">
               <li class="filter-list__item">
@@ -109,17 +109,19 @@
             <div class="filters-form__wrapper range-wrapper">
               <label class="range-wrapper__control" for="min-value">
                 <input class="range-wrapper__control-input bold" type="number" id="min-value" name="min-value" min="0" max="9000" value="0">
-                от
+                <span>от</span>
               </label>
               <label class="range-wrapper__control" for="max-value">
                 <input class="range-wrapper__control-input bold" type="number" id="max-value" name="max-value" min="0" max="9000" value="9000">
-                до
+                <span>до</span>
               </label>
             </div>
             <input class="filters-form__range-control-input" type="range" min="0" max="9000" value="7000">
           </fieldset>
-          <button class="filters-form__button button button--second-color" type="submit">Применить</button>
-          <button class="filters-form__button button button--transparent" type="reset">Сбросить</button>
+          <div class="filters-form__button-wrapper">
+            <button class="filters-form__button button button--second-color" type="submit">Применить</button>
+            <button class="filters-form__button button button--transparent" type="reset">Сбросить</button>
+          </div>
         </form>
       </section>
       <section class="catalog__hotels-result hotels-result">
@@ -166,6 +168,10 @@
               <div class="card__quality">
                 <span class="card__stars card__stars--four-stars">
                   <span class="visually-hidden">Четырёхзвёздочный отель</span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
                 </span>
                 <p class="card__rating">Рейтинг: <span class="card__rating-amount">8,5</span></p>
               </div>
@@ -188,6 +194,10 @@
               <div class="card__quality">
                 <span class="card__stars card__stars--four-stars">
                   <span class="visually-hidden">Четырёхзвёздочный отель</span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
                 </span>
                 <p class="card__rating">Рейтинг: <span class="card__rating-amount">9,2</span></p>
               </div>
@@ -210,6 +220,9 @@
               <div class="card__quality">
                 <span class="card__stars card__stars--three-stars">
                   <span class="visually-hidden">Трёхзвёздочный отель</span>
+                  <span class="star"></span>
+                  <span class="star"></span>
+                  <span class="star"></span>
                 </span>
                 <p class="card__rating">Рейтинг: <span class="card__rating-amount">6,9</span></p>
               </div>
@@ -232,6 +245,8 @@
               <div class="card__quality">
                 <span class="card__stars card__stars--two-stars">
                   <span class="visually-hidden">Двухзвёздочный отель</span>
+                  <span class="star"></span>
+                  <span class="star"></span>
                 </span>
                 <p class="card__rating">Рейтинг: <span class="card__rating-amount">5,0</span></p>
               </div>
@@ -294,17 +309,17 @@
     <footer class="footer">
       <ul class="list footer__social-list social-list">
         <li class="social-list__item">
-          <a class="social-list__link" href="https://vk.com/htmlacademy">
+          <a class="social-list__link social-list__link--icon-vk" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">Ссылка на сайт Академии в Вконтакте</span>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://t.me/htmlacademy">
+          <a class="social-list__link social-list__link--icon-tg" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Ссылка на канал Академии в Телеграме</span>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="social-list__link social-list__link--icon-yt" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ссылка на канал Академии в Ютубе</span>
           </a>
         </li>
