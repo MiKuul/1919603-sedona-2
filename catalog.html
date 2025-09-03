@@ -108,16 +108,27 @@
             <fieldset class="filters-form__group">
               <legend class="filters-form__title bold">Стоимость, ₽:</legend>
               <div class="filters-form__wrapper range-wrapper">
-                <label class="range-wrapper__control" for="min-value">
-                  <input class="range-wrapper__control-input bold" type="number" id="min-value" name="min-value" min="0" max="9000" value="0">
-                  <span>от</span>
-                </label>
-                <label class="range-wrapper__control" for="max-value">
-                  <input class="range-wrapper__control-input bold" type="number" id="max-value" name="max-value" min="0" max="9000" value="9000">
-                  <span>до</span>
-                </label>
+                <div class="range-wrapper__control-wrapper">
+                  <label class="range-wrapper__control" for="min-value">
+                    <input class="range-wrapper__control-input bold" type="number" id="min-value" name="min-value" min="0" max="9000" value="0">
+                    <span>от</span>
+                  </label>
+                  <label class="range-wrapper__control" for="max-value">
+                    <input class="range-wrapper__control-input bold" type="number" id="max-value" name="max-value" min="0" max="9000" value="9000">
+                    <span>до</span>
+                  </label>
+                </div>
+                <div class="range-wrapper__range-scale range-scale">
+                  <div class="range-sacle__range-bar">
+                    <button class="range-sacle__range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену</span>
+                    </button>
+                    <button class="range-sacle__range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену</span>
+                    </button>
+                  </div>
+                </div>
               </div>
-              <input class="filters-form__range-control-input" type="range" min="0" max="9000" value="7000">
             </fieldset>
             <div class="filters-form__button-wrapper">
               <button class="filters-form__button button button--second-color" type="submit">Применить</button>
