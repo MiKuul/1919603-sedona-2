@@ -1606,6 +1606,8 @@ img {
   margin-right: 46px;
   width: 26px;
   height: 26px;
+  border: none;
+  outline: none;
   border-radius: 100%;
   background-color: #83b3d3;
   background-image: url("../images/index/modal/modal-popup-icon.svg");
@@ -1627,10 +1629,18 @@ img {
   border-radius: 10px;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
   background-color: #333;
+  transform: translateX(0%);
 }
 
-.popup-active {
+.modal-form__group-wrapper-popup:hover + .modal-form__group-wrapper-popup-text,
+.modal-form__group-wrapper-popup:focus-visible + .modal-form__group-wrapper-popup-text {
   display: block;
+}
+
+@supports not selector(:focus-visible) {
+  .modal-form__group-wrapper-popup:focus + .modal-form__group-wrapper-popup-text{
+    display: block;
+  }
 }
 
 .modal-form__group-wrapper-popup-text::before {
